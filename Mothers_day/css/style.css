@@ -1,0 +1,54 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(red, green, blue);
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    border-radius: 300px 0px 300px 0px;
+    box-shadow: 0px 0px 15px 0px black;
+    Color: orange;
+    animation: scale 1s;
+}
+
+.title {
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.poem {
+    font-size: 30px;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
